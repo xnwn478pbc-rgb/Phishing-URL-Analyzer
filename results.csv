@@ -1,0 +1,12 @@
+url,heuristic_score,tags,vt_status,recommendation
+http://# Put one URL per line; lines starting with # are ignored,3,invalid-url,,Investigate
+https://www.microsoft.com/en-us/,2,looks-like-brand,,Probably safe (review)
+https://login.microsoft.com/,2,looks-like-brand,,Probably safe (review)
+https://microsoft-support.com/verify,3,suspicious-keyword-in-path;looks-like-brand,,Investigate
+http://185.165.123.22/secure,4,ip-in-host;suspicious-keyword-in-path,,Investigate
+https://paypal-security-update.net/login,1,suspicious-keyword-in-path,,Probably safe (review)
+https://accounts.google.com/signin,1,suspicious-keyword-in-path,,Probably safe (review)
+http://xn--microsft-8d0b.com/secure,6,punycode;suspicious-keyword-in-path;looks-like-brand,,Investigate
+https://very-long-example-domain-name-with-many-segments-and-paths.example.com/this/is/a/long/path/with/many/parts,1,long-url,,Probably safe (review)
+http://example.tk/login,3,suspicious-keyword-in-path;suspicious-tld,,Investigate
+https://github.com/samueljemal,0,none,,Probably safe (review)
