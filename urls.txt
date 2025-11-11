@@ -1,0 +1,11 @@
+# Put one URL per line; lines starting with # are ignored
+https://www.microsoft.com/en-us/
+https://login.microsoft.com/
+https://microsoft-support.com/verify
+http://185.165.123.22/secure
+https://paypal-security-update.net/login
+https://accounts.google.com/signin
+http://xn--microsft-8d0b.com/secure
+https://very-long-example-domain-name-with-many-segments-and-paths.example.com/this/is/a/long/path/with/many/parts
+http://example.tk/login
+https://github.com/samueljemal
